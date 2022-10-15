@@ -8,7 +8,7 @@ void testaNum(int num, int soma, std::vector<int> *vet) {
     soma2 += aux % 10;
     aux = aux / 10;
   }
-  // caso as duas somas forem iguais guarda no veto
+  // caso as duas somas forem iguais guarda no vetor
   if (soma == soma2) {
     vet->push_back(num);
   }
